@@ -93,7 +93,7 @@
  /* feature photos section start here */
 
  .feature-photos-container {
-     margin: 50px 200px;
+     margin: 50px 320px;
      /* background-color: rgb(216, 215, 213); */
  }
 
@@ -342,4 +342,24 @@
  }
 
  /* Latest Deals part ends here */
+
+ /* Footer Starts Here */
+
+ footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+ }
+
+ footer h1{
+    margin-bottom: 20px;
+ }
+
+ footer p{
+    color: rgb(105, 108, 110);
+ }
+ 
+
+  /* Footer Ends Here */
  /* main part start here */
