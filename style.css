@@ -90,10 +90,10 @@
      /* margin-bottom: 60px; */
  }
 
-/* feature photos section start here */
+ /* feature photos section start here */
 
  .feature-photos-container {
-     margin:  50px 200px;
+     margin: 50px 200px;
      /* background-color: rgb(216, 215, 213); */
  }
 
@@ -109,18 +109,19 @@
      border-radius: 300px 300px 0px 0px;
      background: rgba(167, 33, 98, 0.15);
      margin-top: 30px;
-     padding: 20px 20px 0px 20px ;  
+     padding: 20px 20px 0px 20px;
      transition: transform 0.3s ease;
  }
 
- #fp-img img:nth-child(2){
-    align-items: center;
-    /* width: auto; */
-    height: auto;
-    padding: auto;
+ #fp-img img:nth-child(2) {
+     align-items: center;
+     /* width: auto; */
+     height: auto;
+     padding: auto;
  }
- #fp-img img:hover{
-    transform: scale(1.03);
+
+ #fp-img img:hover {
+     transform: scale(1.03);
      /* margin-bottom: 5px; */
  }
 
@@ -131,10 +132,10 @@
      justify-content: space-around;
  }
 
- #fp-img-name p{
- padding-top: 5px;
- padding-bottom: 5px;
- font-weight: 500;
+ #fp-img-name p {
+     padding-top: 5px;
+     padding-bottom: 5px;
+     font-weight: 500;
  }
 
  /* feature photos section start here */
@@ -142,33 +143,94 @@
 
  /* Feature Option Start here */
 
- .feature-option{
-    margin: 90px 220px;
+ .feature-option {
+     margin: 90px 220px;
  }
 
- .feature-option-container{
-    background-color: antiquewhite;
-    padding: 50px;
+ .feature-option-container {
+     background-color: antiquewhite;
+     padding: 50px;
  }
 
- #feature-option-icons{
-    display: flex ;
-    justify-content: space-evenly;
+ #feature-option-icons {
+     display: flex;
+     justify-content: space-evenly;
  }
 
- #feature-option-p{
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-    padding-left: 130px;
-    padding-top: 5px;
+ #feature-option-p {
+     display: flex;
+     justify-content: space-between;
+     width: 70%;
+     padding-left: 130px;
+     padding-top: 5px;
  }
 
 
-  /* Feature Option Start here */
+ /* Feature Option Start here */
 
-  /* hot deal part start here */
+ /* hot deal part start here */
+ .hot-deal-container {
+     background-color: rgb(235, 245, 241);
+     padding: 0 150px 50px 220px;
+     display: flex;
+     justify-content: space-around;
+ }
 
-  /* hot deal part ends here */
+ .hot-deal-p h1 {
+     padding-top: 180px;
+     color: #272727;
+     font-family: Lato;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+     transition: transform 0.3s ease;
+ }
+
+ .hot-deal-p h1:hover{
+    transform: scale(1.05);
+    color: red;
+ }
+
+ span{
+    color: red;
+ }
+
+ span:hover{
+    color: blue;
+ }
+
+ 
+ .hot-deal-p p {
+     color: rgba(39, 39, 39, 0.60);
+     /* text-align: center; */
+     font-family: Lato;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+     width: 80%;
+     padding-bottom: 8px;
+ }
+
+ .hot-deal-p button {
+     padding: 7px 18px;
+     border-radius: 8px;
+    background-color: pink;
+    font-size: 15px;
+ }
+
+
+ .hot-deal-p button:hover{
+    background-color: blue;
+    color: white;
+    
+ }
+
+ .hot-deal-img{
+    padding-top: 50px;
+ }
+
+ /* hot deal part ends here */
 
  /* main part start here */
