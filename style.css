@@ -36,30 +36,139 @@
      width: 700px;
  }
 
- #Header-body1 button{
-    margin: 20px 0;
-    padding: 8px 20px;
-    background-color: pink;
-    border: 1px solid black;
-    color: black;
-    font-weight: 700;
-    font-size: 15px;
-    border-radius: 8px;
+ #Header-body1 button {
+     margin: 20px 0;
+     padding: 8px 20px;
+     background-color: pink;
+     border: 1px solid black;
+     color: black;
+     font-weight: 700;
+     font-size: 15px;
+     border-radius: 8px;
 
  }
 
- #Header-body1 button:hover{
-  background-color: green;
-  box-shadow: 1px 1px 3px black;
+ #Header-body1 button:hover {
+     background-color: green;
+     box-shadow: 1px 1px 3px black;
  }
 
- #Header-body2 img{
-    margin-bottom: -5px;
-    padding-top: 50px;
-    width: 100%;
-    height: auto;
-    
-  
+ #Header-body2 img {
+     margin-bottom: -5px;
+     padding-top: 50px;
+     width: 100%;
+     height: auto;
+
+
  }
 
  /* Header Part End Here */
+
+
+ /* main part start here */
+
+ /* our feature head */
+
+ .our-feature {
+     text-align: center;
+     margin-top: 120px;
+ }
+
+ .our-feature-head h1 {
+     color: #272727;
+     font-family: Lato;
+     font-size: 40px;
+     font-weight: 800;
+ }
+
+ .our-feature-head p {
+     color: rgba(39, 39, 39, 0.60);
+     font-family: Lato;
+     font-size: 18px;
+     font-weight: 400;
+     /* width: 50%; */
+     /* margin-bottom: 60px; */
+ }
+
+/* feature photos section start here */
+
+ .feature-photos-container {
+     margin:  50px 200px;
+     /* background-color: rgb(216, 215, 213); */
+ }
+
+ #fp-img {
+     display: flex;
+     justify-content: space-evenly;
+
+ }
+
+ #fp-img img {
+     width: 220px;
+     height: 300px;
+     border-radius: 300px 300px 0px 0px;
+     background: rgba(167, 33, 98, 0.15);
+     margin-top: 30px;
+     padding: 20px 20px 0px 20px ;  
+     transition: transform 0.3s ease;
+ }
+
+ #fp-img img:nth-child(2){
+    align-items: center;
+    /* width: auto; */
+    height: auto;
+    padding: auto;
+ }
+ #fp-img img:hover{
+    transform: scale(1.03);
+     /* margin-bottom: 5px; */
+ }
+
+
+
+ #fp-img-name {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ #fp-img-name p{
+ padding-top: 5px;
+ padding-bottom: 5px;
+ font-weight: 500;
+ }
+
+ /* feature photos section start here */
+
+
+ /* Feature Option Start here */
+
+ .feature-option{
+    margin: 90px 220px;
+ }
+
+ .feature-option-container{
+    background-color: antiquewhite;
+    padding: 50px;
+ }
+
+ #feature-option-icons{
+    display: flex ;
+    justify-content: space-evenly;
+ }
+
+ #feature-option-p{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding-left: 130px;
+    padding-top: 5px;
+ }
+
+
+  /* Feature Option Start here */
+
+  /* hot deal part start here */
+
+  /* hot deal part ends here */
+
+ /* main part start here */
