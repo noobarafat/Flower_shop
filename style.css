@@ -262,15 +262,84 @@
      font-weight: 400;
      line-height: 30px;
      padding-bottom: 50px;
-    
+
  }
 
- #ip-img{
-    display: flex;
-    justify-content: space-around;
-    height: 300px;
+ #ip-img {
+     display: flex;
+     justify-content: space-around;
+     height: 320px;
  }
 
  /* Instagram & Photos Container Part start Here */
 
+ /* Latest Deals part start here */
+
+ .latest-deals-container {
+     margin: 0 200px 50px 200px;
+     background-image: url('./Flower Asset/Rectangle\ 9.png');
+     border-radius: 15px;
+    
+
+ }
+
+ #latest-deals-header {
+     text-align: center;
+     padding-top: 150px;
+ }
+
+ #latest-deals-header h1 {
+     color: #272727;
+     text-align: center;
+     font-family: Lato;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+ }
+
+ #latest-deals-header p {
+     color: rgba(39, 39, 39, 0.60);
+     text-align: center;
+     font-family: Lato;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+     /* 166.667% */
+ }
+
+ .latest-deals-subscribe {
+
+     text-align: center;
+     margin-top: 20px;
+ }  
+
+ .latest-deals-subscribe input{
+
+    padding: 15px 40px 15px 10px;
+    margin-bottom:150px ;
+    border-radius: 10px 0px 0px 10px;
+    /* border: none; */
+
+ }
+
+ .latest-deals-subscribe button{
+    padding: 15px 15px 15px 10px;
+    margin-bottom:150px ;
+    margin-left: -5px;
+    border-radius: 0px 10px 10px 0px;
+    /* border: none; */
+    background-color: green;
+    font-weight: 600;
+   
+ }
+
+ .latest-deals-subscribe button:hover{
+    background-color: red;
+    color:white;
+    font-weight: 600;
+ }
+
+ /* Latest Deals part ends here */
  /* main part start here */
