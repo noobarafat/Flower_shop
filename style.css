@@ -187,20 +187,20 @@
      transition: transform 0.3s ease;
  }
 
- .hot-deal-p h1:hover{
-    transform: scale(1.05);
-    color: red;
+ .hot-deal-p h1:hover {
+     transform: scale(1.05);
+     color: red;
  }
 
- span{
-    color: red;
+ span {
+     color: red;
  }
 
- span:hover{
-    color: blue;
+ span:hover {
+     color: blue;
  }
 
- 
+
  .hot-deal-p p {
      color: rgba(39, 39, 39, 0.60);
      /* text-align: center; */
@@ -216,21 +216,61 @@
  .hot-deal-p button {
      padding: 7px 18px;
      border-radius: 8px;
-    background-color: pink;
-    font-size: 15px;
+     background-color: pink;
+     font-size: 15px;
  }
 
 
- .hot-deal-p button:hover{
-    background-color: blue;
-    color: white;
-    
+ .hot-deal-p button:hover {
+     background-color: blue;
+     color: white;
+
  }
 
- .hot-deal-img{
-    padding-top: 50px;
+ .hot-deal-img {
+     padding-top: 50px;
  }
 
  /* hot deal part ends here */
+
+ /* Instagram & Photos Container Part start Here */
+
+ .instagram-photos-container {
+     margin: 100px 200px;
+ }
+
+ #ip-head {
+     text-align: center;
+ }
+
+ #ip-head h1 {
+     color: #272727;
+     text-align: center;
+     font-family: Lato;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+ }
+
+ #ip-head p {
+     color: rgba(39, 39, 39, 0.60);
+     text-align: center;
+     font-family: Lato;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+     padding-bottom: 50px;
+    
+ }
+
+ #ip-img{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+ }
+
+ /* Instagram & Photos Container Part start Here */
 
  /* main part start here */
